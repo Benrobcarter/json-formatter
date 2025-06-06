@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "generated_on": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "generated_on",
+        "description"
+      ]
+    },
+    "folders": {
+      "type": "object",
+      "properties": {
+        "contradictions/manual/": {
+          "type": "string"
+        },
+        "contradictions/auto/": {
+          "type": "string"
+        },
+        "evidence/email/": {
+          "type": "string"
+        },
+        "evidence/whatsapp/": {
+          "type": "string"
+        },
+        "evidence/audio/": {
+          "type": "string"
+        },
+        "evidence/images/": {
+          "type": "string"
+        },
+        "evidence/documents/": {
+          "type": "string"
+        },
+        "evidence/SAR/": {
+          "type": "string"
+        },
+        "evidence/public_uploads/": {
+          "type": "string"
+        },
+        "evidence/misc/": {
+          "type": "string"
+        },
+        "evidence/device_extracts/": {
+          "type": "string"
+        },
+        "evidence/anonymous/": {
+          "type": "string"
+        },
+        "emotional/": {
+          "type": "string"
+        },
+        "actors/by_entity/": {
+          "type": "string"
+        },
+        "timeline/printable/": {
+          "type": "string"
+        },
+        "timeline/vex/": {
+          "type": "string"
+        },
+        "timeline/audit/": {
+          "type": "string"
+        },
+        "bundles/all_evidence/": {
+          "type": "string"
+        },
+        "bundles/public/": {
+          "type": "string"
+        },
+        "bundles/archive/": {
+          "type": "string"
+        },
+        "bundles/forensic/": {
+          "type": "string"
+        },
+        "manifest/structure/": {
+          "type": "string"
+        },
+        "manifest/audit/": {
+          "type": "string"
+        },
+        "manifest/change_log/": {
+          "type": "string"
+        },
+        "meta/processing/": {
+          "type": "string"
+        },
+        "meta/errors/": {
+          "type": "string"
+        },
+        "public/divi/": {
+          "type": "string"
+        },
+        "public/redacted/": {
+          "type": "string"
+        },
+        "public/site/": {
+          "type": "string"
+        },
+        "public/media/": {
+          "type": "string"
+        },
+        "reference/legal/": {
+          "type": "string"
+        },
+        "reference/board_minutes/": {
+          "type": "string"
+        },
+        "reference/guidance/": {
+          "type": "string"
+        },
+        "reference/statutes/": {
+          "type": "string"
+        },
+        "transcripts/ai_generated/": {
+          "type": "string"
+        },
+        "transcripts/manual/": {
+          "type": "string"
+        },
+        "scripts/": {
+          "type": "string"
+        },
+        "fine_tune/sync/": {
+          "type": "string"
+        },
+        "fine_tune/training/": {
+          "type": "string"
+        },
+        "fine_tune/results/": {
+          "type": "string"
+        },
+        "archive/": {
+          "type": "string"
+        },
+        "uploads/": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "contradictions/manual/",
+        "contradictions/auto/",
+        "evidence/email/",
+        "evidence/whatsapp/",
+        "evidence/audio/",
+        "evidence/images/",
+        "evidence/documents/",
+        "evidence/SAR/",
+        "evidence/public_uploads/",
+        "evidence/misc/",
+        "evidence/device_extracts/",
+        "evidence/anonymous/",
+        "emotional/",
+        "actors/by_entity/",
+        "timeline/printable/",
+        "timeline/vex/",
+        "timeline/audit/",
+        "bundles/all_evidence/",
+        "bundles/public/",
+        "bundles/archive/",
+        "bundles/forensic/",
+        "manifest/structure/",
+        "manifest/audit/",
+        "manifest/change_log/",
+        "meta/processing/",
+        "meta/errors/",
+        "public/divi/",
+        "public/redacted/",
+        "public/site/",
+        "public/media/",
+        "reference/legal/",
+        "reference/board_minutes/",
+        "reference/guidance/",
+        "reference/statutes/",
+        "transcripts/ai_generated/",
+        "transcripts/manual/",
+        "scripts/",
+        "fine_tune/sync/",
+        "fine_tune/training/",
+        "fine_tune/results/",
+        "archive/",
+        "uploads/"
+      ]
+    },
+    "placement_directive": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "meta",
+    "folders",
+    "placement_directive"
+  ]
+}
